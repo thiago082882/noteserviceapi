@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js",
-    "vercel-build": "npx src .env deploy"
+    "vercel-build": "npx src deploy"
   },
   "keywords": [],
   "author": "",
