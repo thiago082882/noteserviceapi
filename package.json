@@ -4,8 +4,7 @@
   "description": "Notes Api",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "vercel-build": "npx src deploy"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
