@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const quotes = require("./quotes.json");
-const noteRouters = require("./routes/noteRouters");
-const userRouter =require("./routes/userRoutes");
+const quotes = require("./src/quotes.json");
+const noteRouters = require("./src/routes/noteRouters");
+const userRouter =require("./src/routes/userRoutes");
 const dotenv = require("dotenv");
 const cors = require("cors");
 
